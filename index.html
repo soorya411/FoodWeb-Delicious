@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./images/icon.jpg">
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav>
+
+        <div>
+            <!-- <img id="logo" src="data:image/jpeg;base64,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" alt=""> -->
+            <h3 id="name">Delicious</h3>
+        </div>
+        <div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Specials</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+
+    </nav>
+    <!-- video -->
+    <section id="video">
+        <video autoplay loop muted>
+            <source src="./images/production_id_4970524 (2160p).mp4">
+        </video>
+        <div class="overlay">
+            <div class="inner">
+                <h1>Enjoy Your Healthy <br>
+                    Food With Delicious. </h1>
+            </div>
+        </div>
+    </section>
+    <!-- div -->
+
+    <div class="row">
+        <div class="col">
+            <img src="https://media.istockphoto.com/id/488481490/photo/fish-biryani-with-basmati-rice-indian-food.jpg?s=612x612&w=0&k=20&c=9xEw3VOQSz9TP8yQr60L47uExyKF9kogRhQdlghlC00="
+                alt="">
+            <h4 id="item">Fish Biriyani</h4>
+            <h4>Price:250</h4>
+            <button id="btn"><a href="https://www.zomato.com/bangalore/delivery?dishv2_id=21316">ORDER NOW</a></button>
+        </div>
+        <div class="col">
+            <img src="https://media.istockphoto.com/id/1345624336/photo/chicken-biriyani.jpg?s=612x612&w=0&k=20&c=adU_N0P-1SKMQLZu5yu7aPknfLLgbViI8XILqLP92A4="
+                alt="">
+            <h4 id="item">Chicken Biriyani</h4>
+            <h4>Price:190</h4>
+            <button id="btn"><a href="https://www.zomato.com/bangalore/delivery?dishv2_id=2874">ORDER NOW</a></button>
+        </div>
+        <div class="col">
+            <img src="https://t3.ftcdn.net/jpg/03/24/50/54/360_F_324505480_RTE4AmVPsYP96f99g88gEwabe65mSvak.jpg" alt="">
+            <h4 id="item">Mandi</h4>
+            <h4>Price:320</h4>
+            <button id="btn"><a href="https://www.zomato.com/bangalore/masala-mandi-sarjapur-road-bangalore">ORDER
+                    NOW</a></button>
+        </div>
+        <div class="col">
+            <img src="https://www.justgotochef.com/uploads/1602004023-WhatsApp%20Image%202020-10-06%20at%2010.36.35%20PM.jpeg"
+                alt="">
+            <h4 id="item">Kizhi Parotta</h4>
+            <h4>Price:150</h4>
+            <button id="btn"><a href="https://www.zomato.com/bangalore/delivery?dishv2_id=49939">ORDER NOW</a></button>
+        </div>
+    </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <img src="https://maayeka.com/wp-content/uploads/2013/01/pasata-blog.jpg" alt="">
+            <h4 id="item">Cheese Pasta</h4>
+            <h4>Price:140</h4>
+            <button id="btn"><a href="https://www.zomato.com/bangalore/delivery?dishv2_id=22627">ORDER NOW</a></button>
+        </div>
+        <div class="col">
+            <img src="https://e0.pxfuel.com/wallpapers/255/457/desktop-wallpaper-cheese-vegetables-olive-pizza-piece-resolution-wallpx-food-pizza.jpg"
+                alt="">
+            <h4 id="item">Pizza</h4>
+            <h4>Price:319</h4>
+            <button id="btn"><a href="https://www.zomato.com/bangalore/delivery?dishv2_id=68987">ORDER NOW</a></button>
+        </div>
+        <div class="col">
+            <img src="https://us.123rf.com/450wm/altitudevisual/altitudevisual2212/altitudevisual221206162/195461632-turkish-shawarma-with-beef-and-salsa-sauce-in-pita-bread-on-table.jpg?ver=6"
+                alt="">
+            <h4 id="item">Shawarma</h4>
+            <h4>Price:120</h4>
+            <button id="btn"><a href="https://www.zomato.com/bangalore/delivery?dishv2_id=45873">ORDER NOW</a></button>
+        </div>
+        <div class="col">
+            <img src="https://static.toiimg.com/thumb/75356205.cms?width=1200&height=900" alt="">
+            <h4 id="item">Chicken Noodles</h4>
+            <h4>Price:300</h4>
+            <button id="btn"><a href="https://www.zomato.com/bangalore/delivery?dishv2_id=17969">ORDER NOW</a></button>
+        </div>
+    </div>
+    <div class="map">
+        <iframe width="100%"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248784.63920640532!2d77.2245740890503!3d13.019108819648649!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae176f25153ebf%3A0xd45d67331ac323ae!2sPARAGON%20RESTAURANT!5e0!3m2!1sen!2sin!4v1694545362659!5m2!1sen!2sin"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <!-- footer -->
+    <footer>
+        <h2>Contact us</h2>
+        <div class="footericons">
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            <a
+                href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D"><i
+                    class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.whatsapp.com/"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+
+
+        </div>
+
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+        </ul>
+        <div class="footerbottom">
+            <p>Copyright &copy; 2023; Designed by Delicious</p>
+        </div>
+    </footer>
+</body>
+
+</html>
